@@ -46,11 +46,10 @@ public class ImprovedATM_System {
                             loginScreen = false;
                             atmSystem();
                             break;
-                        } else {
-                            System.out.println("Login Failed");
-                            System.out.println();
                         }
                     }
+                    System.out.println("Login Failed");
+                    System.out.println();
                     break;
                 }
                 case 3: {
